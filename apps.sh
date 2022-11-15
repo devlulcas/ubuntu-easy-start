@@ -16,7 +16,7 @@ read php
 
 if ( [ $php = "y" ] || [ $php = "Y" ] )
 then
-  source /extra/php.sh
+  source extra/php.sh
 fi
 
 echo "Deseja instalar o Golang? (y/n)"
@@ -24,7 +24,7 @@ read golang
 
 if ( [ $golang = "y" ] || [ $golang = "Y" ] )
 then
-  source /extra/golang.sh
+  source extra/golang.sh
 fi
 
 echo "Deseja instalar o NodeJS e seus trecos? (y/n)"
@@ -32,7 +32,7 @@ read node
 
 if ( [ $node = "y" ] || [ $node = "Y" ] )
 then
-  source /extra/node.sh
+  source extra/node.sh
 fi
 
 echo "Deseja instalar o Rust? (y/n)"
@@ -40,7 +40,7 @@ read rust
 
 if ( [ $rust = "y" ] || [ $rust = "Y" ] )
 then
-  source /extra/rust.sh
+  source extra/rust.sh
 fi
 
 echo "Deseja instalar o Java e seus trecos? (y/n)"
@@ -48,7 +48,7 @@ read java
 
 if ( [ $java = "y" ] || [ $java = "Y" ] )
 then
-  source /extra/java.sh
+  source extra/java.sh
 fi
 
 echo "-- Ferramentas --"
@@ -58,7 +58,7 @@ read docker
 
 if ( [ $docker = "y" ] || [ $docker = "Y" ] )
 then
-  source /extra/docker.sh
+  source extra/docker.sh
 fi
 
 echo "Deseja instalar o Postman ou Insomnia? (p/i/n)"
@@ -79,7 +79,7 @@ read neovim
 
 if ( [ $neovim = "y" ] || [ $neovim = "Y" ] )
 then
-  source /extra/neovim.sh
+  source extra/neovim.sh
 fi
 
 echo "Deseja instalar o VSCode? (y/n)"
@@ -87,7 +87,7 @@ read vscode
 
 if ( [ $vscode = "y" ] || [ $vscode = "Y" ] )
 then
-  source /extra/vscode.sh
+  source extra/vscode.sh
 fi
 
 echo "-- Navegadores --"
@@ -97,7 +97,7 @@ read brave
 
 if ( [ $brave = "y" ] || [ $brave = "Y" ] )
 then
-  source /extra/brave.sh
+  source extra/brave.sh
 fi
 
 echo "-- Outros --"
@@ -107,7 +107,7 @@ read okular
 
 if ( [ $okular = "y" ] || [ $okular = "Y" ] )
 then
-  source /extra/okular.sh
+  source extra/okular.sh
 fi
 
 
